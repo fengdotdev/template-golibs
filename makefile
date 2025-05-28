@@ -9,6 +9,7 @@ MODULE_NAME := Foo
 #my GOLIBS For all projects Some are in development, some are stable, some are experimental, some are hidden NOT ALL ARE USED IN THIS PROJECT
 
 
+# Core Libraries -------------------------------------------------------------------------------------
 
 # Traits: Library for handling reusable traits (interfaces) in Go.
 TRAITS = github.com/fengdotdev/golibs-traits
@@ -19,23 +20,36 @@ TESTING = github.com/fengdotdev/golibs-testing
 # kwowledge: Library for knowledge management in Go. aka info like countries, phones, etc.
 KWOW = github.com/fengdotdev/golibs-kwowledge
 
+# CommonTypes: Library for common types used across various Go projects.
+COMMON = github.com/fengdotdev/golibs-commontypes
+
+# Dummy: Library for dummy data generation in Go. using common types and traits
+DUMMY = github.com/fengdotdev/golibs-dummy
+
+# Funcs set of utility functions simplifying standard library operations.
+FUNCS = github.com/fengdotdev/golibs-funcs
+
+
+# Filesystem Libraries -------------------------------------------------------------------------------------
+
 # Nativedrive: Library for native drive operations in Go.
 NDRIVE = github.com/fengdotdev/golibs-nativedrive
 
 # VDrive: Library for virtual drive operations in Go.
 VDRIVE = github.com/fengdotdev/golibs-vdrive
 
-# CommonTypes: Library for common types used across various Go projects.
-COMMON = github.com/fengdotdev/golibs-commontypes
-
-# Funcs set of utility functions simplifying standard library operations.
-FUNCS = github.com/fengdotdev/golibs-funcs
 
 # 1DriveClient: Library for interacting with OneDrive in Go.
 ONEDRIVE = github.com/fengdotdev/golibs-1driveclient
 
+
+# Cross-platform Libraries --------------------------------------------------------------------------------
+
 # Bridge: Library for bridging across different languages and platforms in Go. eg: android, ios,
 BRIDGE = github.com/fengdotdev/golibs-bridge
+
+
+# Math And Machine Learning Libraries --------------------------------------------------------------------
 
 # ML: Library for machine learning utilities in Go.
 ML = github.com/fengdotdev/golibs-ml
@@ -46,14 +60,12 @@ STAT = github.com/fengdotdev/golibs-statistics
 # LinealAlgebra: Library for linear algebra operations in Go.
 LA = github.com/fengdotdev/golibs-linealalgebra
 
-# Dummy: Library for dummy data generation in Go. using common types and traits
-DUMMY = github.com/fengdotdev/golibs-dummy
+
+# Data Processing Libraries ------------------------------------------------------------------------------
 
 # DataContainer: Library for handling data containers in Go.
 DC = github.com/fengdotdev/golibs-datacontainer
 
-# StaticPages: Library for handling static web pages in Go.
-STATIC = github.com/fengdotdev/golibs-staticpages
 
 # Stream: Library for stream processing in Go.
 STREAM = github.com/fengdotdev/golibs-stream
@@ -64,11 +76,12 @@ OPTIONS = github.com/fengdotdev/golibs-options
 # Future: Library for handling futures in Go.
 FUTURE = github.com/fengdotdev/golibs-future
 
-# UtilityCSS: Library for utility-first CSS in Go.
-CSS = github.com/fengdotdev/golibs-utilitycss
 
 # Async: Library for handling asynchronous operations in go for wasm and embedded systems.
 ASYNC = github.com/fengdotdev/golibs-async
+
+
+# Database
 
 # CoipoDB: Library for Key-Value database in Go.
 COIPODB = github.com/fengdotdev/golibs-coipodb
@@ -82,8 +95,20 @@ VECTORDB = github.com/fengdotdev/golibs-vectordb
 # JSONDB: Library for a JSON database in Go.
 JSONDB = github.com/fengdotdev/golibs-jsondb
 
+
+# UI
+
+# UtilityCSS: Library for utility-first CSS in Go.
+CSS = github.com/fengdotdev/golibs-utilitycss
+
+# StaticPages: Library for handling static web pages in Go.
+STATIC = github.com/fengdotdev/golibs-staticpages
+
 # CoipoWASM: Library for WebAssembly in Go. 
 COIPOWASM = github.com/fengdotdev/golibs-coipowasm
+
+# CoipoComponents: Library for reusable GUI components in Go.
+COIPOCOMPONENTS = github.com/fengdotdev/golibs-coipocomponents
 
 .PHONY: sand init  fix get tag test playground sandbox examples vo_folder
 
