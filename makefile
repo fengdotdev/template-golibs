@@ -53,7 +53,7 @@ DUMMY = github.com/fengdotdev/golibs-dummy
 DC = github.com/fengdotdev/golibs-datacontainer
 
 # StaticPages: Library for handling static web pages in Go.
-SPAGE = github.com/fengdotdev/golibs-staticpages
+STATIC = github.com/fengdotdev/golibs-staticpages
 
 # Stream: Library for stream processing in Go.
 STREAM = github.com/fengdotdev/golibs-stream
