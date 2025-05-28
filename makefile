@@ -29,6 +29,9 @@ DUMMY = github.com/fengdotdev/golibs-dummy
 # Funcs set of utility functions simplifying standard library operations.
 FUNCS = github.com/fengdotdev/golibs-funcs
 
+# Errors: Library for error handling utilities in Go.
+ERRORS = github.com/fengdotdev/golibs-errors
+
 
 # Filesystem Libraries -------------------------------------------------------------------------------------
 
