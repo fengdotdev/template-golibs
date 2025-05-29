@@ -9,108 +9,113 @@ MODULE_NAME := Foo
 #my GOLIBS For all projects Some are in development, some are stable, some are experimental, some are hidden NOT ALL ARE USED IN THIS PROJECT
 
 
+# LEGEND: 
+# <STABLE> - Stable library, ready for production use.
+# <DEVELOPMENT> - Library under active development, may have breaking changes.
+# <EXPERIMENTAL> - Experimental library, may not be stable or fully functional.
+# <CONCEPT> - Concept library, not yet implemented or in early stages of development.
+
 # Core Libraries -------------------------------------------------------------------------------------
 
-# Traits: Library for handling reusable traits (interfaces) in Go.
+# Traits: Library for handling reusable traits (interfaces) in Go. <DEVELOPMENT>
 TRAITS = github.com/fengdotdev/golibs-traits
 
-# Testing: Library for testing utilities in Go.
+# Testing: Library for testing utilities in Go. <STABLE>
 TESTING = github.com/fengdotdev/golibs-testing
 
-# kwowledge: Library for knowledge management in Go. aka info like countries, phones, etc.
+# kwowledge: Library for knowledge management in Go. aka info like countries, phones, etc. <CONCEPT>
 KWOW = github.com/fengdotdev/golibs-kwowledge
 
-# CommonTypes: Library for common types used across various Go projects.
+# CommonTypes: Library for common types used across various Go projects. <CONCEPT>
 COMMON = github.com/fengdotdev/golibs-commontypes
 
-# Dummy: Library for dummy data generation in Go. using common types and traits
+# Dummy: Library for dummy data generation in Go. using common types and traits <CONCEPT>
 DUMMY = github.com/fengdotdev/golibs-dummy
 
-# Funcs set of utility functions simplifying standard library operations.
+# Funcs set of utility functions simplifying standard library operations. <DEVELOPMENT>
 FUNCS = github.com/fengdotdev/golibs-funcs
 
-# Errors: Library for error handling utilities in Go.
+# Errors: Library for error handling utilities in Go. <CONCEPT>
 ERRORS = github.com/fengdotdev/golibs-errors
 
 
 # Filesystem Libraries -------------------------------------------------------------------------------------
 
-# Nativedrive: Library for native drive operations in Go.
-NDRIVE = github.com/fengdotdev/golibs-nativedrive
+# Nativedrive: Library for native drive operations in Go. <EXPERIMENTAL>
+NDRIVE = github.com/fengdotdev/golibs-nativedrive 
 
-# VDrive: Library for virtual drive operations in Go.
+# VDrive: Library for virtual drive operations in Go. <EXPERIMENTAL>
 VDRIVE = github.com/fengdotdev/golibs-vdrive
 
 
-# 1DriveClient: Library for interacting with OneDrive in Go.
+# 1DriveClient: Library for interacting with OneDrive in Go. <EXPERIMENTAL>
 ONEDRIVE = github.com/fengdotdev/golibs-1driveclient
 
 
 # Cross-platform Libraries --------------------------------------------------------------------------------
 
-# Bridge: Library for bridging across different languages and platforms in Go. eg: android, ios,
+# Bridge: Library for bridging across different languages and platforms in Go. eg: android, ios, <EXPERIMENTAL>
 BRIDGE = github.com/fengdotdev/golibs-bridge
 
 
 # Math And Machine Learning Libraries --------------------------------------------------------------------
 
-# ML: Library for machine learning utilities in Go.
+# ML: Library for machine learning utilities in Go. <CONCEPT>
 ML = github.com/fengdotdev/golibs-ml
 
-# Statistics: Library for statistical analysis in Go.
+# Statistics: Library for statistical analysis in Go. <CONCEPT>
 STAT = github.com/fengdotdev/golibs-statistics
 
-# LinealAlgebra: Library for linear algebra operations in Go.
+# LinealAlgebra: Library for linear algebra operations in Go. <CONCEPT>
 LA = github.com/fengdotdev/golibs-linealalgebra
 
 
 # Data Processing Libraries ------------------------------------------------------------------------------
 
-# DataContainer: Library for handling data containers in Go.
+# DataContainer: Library for handling data containers in Go. <CONCEPT>
 DC = github.com/fengdotdev/golibs-datacontainer
 
 
-# Stream: Library for stream processing in Go.
+# Stream: Library for stream processing in Go. <CONCEPT>
 STREAM = github.com/fengdotdev/golibs-stream
 
-# Options: Library for handling options in Go.
+# Options: Library for handling options in Go. <CONCEPT>
 OPTIONS = github.com/fengdotdev/golibs-options
 
-# Future: Library for handling futures in Go.
+# Future: Library for handling futures in Go. <CONCEPT>
 FUTURE = github.com/fengdotdev/golibs-future
 
-
-# Async: Library for handling asynchronous operations in go for wasm and embedded systems.
+# Async: Library for handling asynchronous operations in go for wasm and embedded systems. <CONCEPT>
 ASYNC = github.com/fengdotdev/golibs-async
 
 
 # Database
 
-# CoipoDB: Library for Key-Value database in Go.
+# CoipoDB: Library for Key-Value database in Go. <CONCEPT>
 COIPODB = github.com/fengdotdev/golibs-coipodb
 
-# JanusDB: Library Relational database in Go.
+# JanusDB: Library Relational database in Go. <CONCEPT>
 JANUSDB = github.com/fengdotdev/golibs-janusdb
 
-# VectorDB : Library for a vector database in Go.
+# VectorDB : Library for a vector database in Go. <CONCEPT>
 VECTORDB = github.com/fengdotdev/golibs-vectordb
 
-# JSONDB: Library for a JSON database in Go.
+# JSONDB: Library for a JSON database in Go. <CONCEPT>
 JSONDB = github.com/fengdotdev/golibs-jsondb
 
 
 # UI
 
-# UtilityCSS: Library for utility-first CSS in Go.
+# UtilityCSS: Library for utility-first CSS in Go. <EXPERIMENTAL>
 CSS = github.com/fengdotdev/golibs-utilitycss
 
-# StaticPages: Library for handling static web pages in Go.
+# StaticPages: Library for handling static web pages in Go. <EXPERIMENTAL>
 STATIC = github.com/fengdotdev/golibs-staticpages
 
-# CoipoWASM: Library for WebAssembly in Go. 
+# CoipoWASM: Library for WebAssembly in Go.  <EXPERIMENTAL>
 COIPOWASM = github.com/fengdotdev/golibs-coipowasm
 
-# CoipoComponents: Library for reusable GUI components in Go.
+# CoipoComponents: Library for reusable GUI components in Go. <EXPERIMENTAL>
 COIPOCOMPONENTS = github.com/fengdotdev/golibs-coipocomponents
 
 .PHONY: sand init  fix get tag test playground sandbox examples vo_folder
