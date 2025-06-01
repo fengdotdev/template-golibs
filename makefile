@@ -60,6 +60,10 @@ BRIDGE = github.com/fengdotdev/golibs-bridge
 
 # Math And Machine Learning Libraries --------------------------------------------------------------------
 
+# Math: Library for graphs and plotting in Go. <CONCEPT>
+PLOT = github.com/fengdotdev/golibs-plot
+
+
 # ML: Library for machine learning utilities in Go. <CONCEPT>
 ML = github.com/fengdotdev/golibs-ml
 
