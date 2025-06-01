@@ -103,7 +103,8 @@ VECTORDB = github.com/fengdotdev/golibs-vectordb
 # JSONDB: Library for a JSON database in Go. <CONCEPT>
 JSONDB = github.com/fengdotdev/golibs-jsondb
 
-
+SimpleDB: Library for a simple database in Go. <CONCEPT>
+SIMPLEDB = github.com/fengdotdev/golibs-simpledb
 # UI
 
 # UtilityCSS: Library for utility-first CSS in Go. <EXPERIMENTAL>
@@ -160,7 +161,7 @@ test:
 # create some directories for the project
 
 # playground directory
-PLAYGROUND_DIR = cmd/playgeround
+PLAYGROUND_DIR = cmd/playground
 PLAYGROUND_MAIN = ${PLAYGROUND_DIR}/main.go
 
 playground:
