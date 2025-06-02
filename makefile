@@ -80,6 +80,8 @@ LA = github.com/fengdotdev/golibs-linealalgebra
 # Parallel: Library for parallel processing in Go. <DEVELOPMENT>
 PARALLEL = github.com/fengdotdev/golibs-parallel
 
+# Packaging: Library for packaging structures of data in binary format in Go. <CONCEPT>
+PACKAGING = github.com/fengdotdev/golibs-packaging
 
 # DataContainer: Library for handling data containers in Go. <CONCEPT>
 DC = github.com/fengdotdev/golibs-datacontainer
