@@ -76,9 +76,13 @@ LA = github.com/fengdotdev/golibs-linealalgebra
 
 # Data Processing Libraries ------------------------------------------------------------------------------
 
+
+# Parallel: Library for parallel processing in Go. <DEVELOPMENT>
+PARALLEL = github.com/fengdotdev/golibs-parallel
+
+
 # DataContainer: Library for handling data containers in Go. <CONCEPT>
 DC = github.com/fengdotdev/golibs-datacontainer
-
 
 # Stream: Library for stream processing in Go. <CONCEPT>
 STREAM = github.com/fengdotdev/golibs-stream
@@ -107,9 +111,32 @@ VECTORDB = github.com/fengdotdev/golibs-vectordb
 # JSONDB: Library for a JSON database in Go. <CONCEPT>
 JSONDB = github.com/fengdotdev/golibs-jsondb
 
-SimpleDB: Library for a simple database in Go. <CONCEPT>
+# SimpleDB: Library for a simple database in Go. <CONCEPT>
 SIMPLEDB = github.com/fengdotdev/golibs-simpledb
-# UI
+
+
+# GUI
+
+# Canvas: Library for drawing and rendering graphics in Go using Frame. <EXPERIMENTAL>
+CANVAS = github.com/fengdotdev/golibs-canvas
+
+
+# Frame: Library for drawing matrixes on some display  in Go. <EXPERIMENTAL>
+FRAME = github.com/fengdotdev/golibs-frame
+
+# Display: Library for displaying graphics in Go Interfaces. <EXPERIMENTAL>
+
+# WebDisplay: Impl Display for displaying using webcanvas in Go
+WEBDISPLAY = github.com/fengdotdev/golibs-webdisplay
+
+#ImgDisplay: Impl Display for displaying images in Go using image output. <EXPERIMENTAL>
+ImgDisplay = github.com/fengdotdev/golibs-imgdisplay
+
+# GrapDisplay: Impl Display for displaying graphics in Go using GPU Render. <EXPERIMENTAL>
+GrapDisplay = github.com/fengdotdev/golibs-grapdisplay
+
+
+# Web Libraries ------------------------------------------------------------------------------------------
 
 # UtilityCSS: Library for utility-first CSS in Go. <EXPERIMENTAL>
 CSS = github.com/fengdotdev/golibs-utilitycss
@@ -119,6 +146,7 @@ STATIC = github.com/fengdotdev/golibs-staticpages
 
 # CoipoWASM: Library for WebAssembly in Go.  <EXPERIMENTAL>
 COIPOWASM = github.com/fengdotdev/golibs-coipowasm
+
 
 # CoipoComponents: Library for reusable GUI components in Go. <EXPERIMENTAL>
 COIPOCOMPONENTS = github.com/fengdotdev/golibs-coipocomponents
